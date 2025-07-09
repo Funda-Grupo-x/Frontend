@@ -7,7 +7,11 @@ import { catchError, Observable, retry, throwError } from 'rxjs';
 })
 export class BaseService<T> {
   // Cambia la URL base al endpoint del servidor JSON
+<<<<<<< HEAD
    basePath: string = 'https://managewise-backend-hfadgugthcc2erdd.centralus-01.azurewebsites.net/api/v1';
+=======
+   basePath: string = 'http://localhost:8090/api/v1';
+>>>>>>> origin/main
     resourceEndpoint: string = '/meetings'; // Ajusta este endpoint si es necesario
 
   private http: HttpClient = inject(HttpClient);
@@ -29,7 +33,11 @@ export class BaseService<T> {
 
   // Método para crear un recurso
   create(item: any): Observable<T> {
+<<<<<<< HEAD
     return this.http.post<T>('https://managewise-backend-hfadgugthcc2erdd.centralus-01.azurewebsites.net/api/v1/meetings', JSON.stringify(item), this.httpOptions)
+=======
+    return this.http.post<T>('http://localhost:8090/api/v1/meetings', JSON.stringify(item), this.httpOptions)
+>>>>>>> origin/main
       .pipe(retry(2), catchError(this.handleError));
   }
 

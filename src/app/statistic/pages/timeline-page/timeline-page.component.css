@@ -99,6 +99,7 @@
   font-size: 20px; /* Tamaño de fuente más pequeño */
   font-weight: bold;
 }
+<<<<<<< HEAD
 .content-container {
   background-color: white;         /* Fondo blanco */
   padding: 20px;                   /* Espaciado interno */
@@ -107,6 +108,8 @@
   margin: 20px auto;               /* Centrado horizontal */
   max-width: 1000px;               /* Ancho máximo opcional */
 }
+=======
+>>>>>>> origin/main
 
 /* Efecto hover para el botón de cerrar */
 .close:hover,

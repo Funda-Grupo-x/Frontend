@@ -4,7 +4,11 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+<<<<<<< HEAD
 
+=======
+  background-color: #f4f4f9;
+>>>>>>> origin/main
 }
 
 mat-card {
