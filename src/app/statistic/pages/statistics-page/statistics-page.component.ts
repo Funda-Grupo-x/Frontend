@@ -5,6 +5,10 @@ import { RouterModule } from '@angular/router';
 import { NgApexchartsModule } from 'ng-apexcharts';
 import { CommonModule } from '@angular/common';
 import { StatisticsChartComponent } from '../../components/statistics-chart/statistics-chart.component';
+<<<<<<< HEAD
+import { DoughnutComponent } from '../../components/doughnut/doughnut.component.ts';
+=======
+>>>>>>> origin/main
 import { TranslateModule } from '@ngx-translate/core';
 
 export type ChartOptions = {

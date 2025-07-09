@@ -7,13 +7,21 @@ import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { ChartComponent } from 'ng-apexcharts';
+<<<<<<< HEAD
+import { DoughnutChartComponent } from '../../components/doughnut/doughnut.component';
+=======
 
+>>>>>>> origin/main
 @Component({
   selector: 'app-timeline-page',
   templateUrl: './timeline-page.component.html',
   styleUrls: ['./timeline-page.component.css'],
   standalone: true,
+<<<<<<< HEAD
+  imports: [CommonModule, NgApexchartsModule, TranslateModule,DoughnutChartComponent]
+=======
   imports: [CommonModule, NgApexchartsModule, TranslateModule]
+>>>>>>> origin/main
 })
 export class TimelinePageComponent implements OnInit, AfterViewInit {
   @ViewChild("chart") chart!: ChartComponent;

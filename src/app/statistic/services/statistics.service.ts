@@ -24,7 +24,14 @@ export class StatisticsService {
       })
     );
   }
+<<<<<<< HEAD
+  // En statistics.service.ts
+  getStatistics(): Observable<Statistics[]> {
+      return this.getUserStories();
+  }
+=======
 
+>>>>>>> origin/main
 loadUserStories(): Observable<any[]> {
   return this.http.get<any[]>(`${this.apiUrl}/user-stories`).pipe(
     map((stories) =>
